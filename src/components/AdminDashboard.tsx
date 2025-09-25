@@ -331,7 +331,7 @@ const AdminDashboard: React.FC<AdminDashboardProps> = ({ onSendMessage }) => {
                 </div>
 
                 {/* Order Items */}
-                <div className="bg-secondary/50 p-4 rounded-lg space-y-2">
+                {/* <div className="bg-secondary/50 p-4 rounded-lg space-y-2">
                   <h4 className="font-medium text-sm">
                     Buyurtma tafsilotlari:
                   </h4>
@@ -354,7 +354,7 @@ const AdminDashboard: React.FC<AdminDashboardProps> = ({ onSendMessage }) => {
                       {order.total_amount.toLocaleString()} so'm
                     </span>
                   </div>
-                </div>
+                </div> */}
               </CardContent>
             </Card>
           ))
